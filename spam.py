@@ -8,7 +8,7 @@ for i in range(100):
     message = client.messages.create(
         body='HAHAHAHHAHAHAHAHAHAHHAHAHAHAHAHHHAHAHAHHAHAHA!',
         from_='+13203149868',
-        to='09917712508'
+        to='+639917712508'
     )
 
     print(f"SMS number {i+1} sent with SID: {message.sid}")
